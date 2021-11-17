@@ -8,13 +8,13 @@ Now, first you need to start the server for the backend cli_api:
   '''python manage.py runserver'''
 
 
-Use the command as per the following instruction:
+Use the command as per the following instruction(Go to the Frontend_cli folder):
 
 To get the value of a key use
-  '''python cli.py get <key>'''
+  '''python cli.py get key'''
 
 To add or update the value of a key use
-  '''python cli.py put <key> <value>'''
+  '''python cli.py put key value'''
 
 To monitor realtime changes to the key values start the following in separate console
   '''python cli.py watch'''
